@@ -17,7 +17,7 @@ npm install puppeteer-afp
 npm install wget-improved --save
 sudo npm install pm2 -g
 
-sudo apt install tasksel
+sudo apt install tasksel -y
 sudo apt update
 sudo dpkg --configure -a
 sudo tasksel
