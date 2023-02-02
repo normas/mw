@@ -22,8 +22,8 @@ sudo apt update
 sudo dpkg --configure -a
 sudo tasksel
 
+echo "pm" && pm2 -v
 echo "node" && node -v
 echo "nodejs" && nodejs -v
 echo "npm" && npm -v
-echo "pm" && pm2 -v
 cat package.json
