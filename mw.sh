@@ -16,12 +16,14 @@ npm install puppeteer
 npm install puppeteer-afp
 npm install wget-improved --save
 sudo npm install pm2 -g
+sudo npm install dotenv
 
 sudo apt install tasksel -y
 sudo apt update
 sudo dpkg --configure -a
 sudo tasksel
 
+chmod u+x chrome.sh && chmod +x chrome.sh
 echo "pm" && pm2 -v
 echo "node" && node -v
 echo "nodejs" && nodejs -v
